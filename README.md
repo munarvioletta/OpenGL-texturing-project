@@ -13,6 +13,10 @@ A project where the 3D object is created, textured and displayed on screen.
 
 ###C++ implementation
 
+####Preview images
+
+![Preview image 1](https://raw.githubusercontent.com/munarvioletta/OpenGL-texturing-project/master/cpp-implementation/wynik.png)
+
 ####C++ code 
 
 ```cpp
@@ -104,6 +108,14 @@ int main(int argc, char** argv)
 ```
 
 ###Python2 implementation
+
+####Preview images
+
+![Preview image 1](https://raw.githubusercontent.com/munarvioletta/OpenGL-texturing-project/master/python-implementation/wynik1.png)
+
+![Preview image 2](https://raw.githubusercontent.com/munarvioletta/OpenGL-texturing-project/master/python-implementation/wynik2.png)
+
+![Preview image 3](https://raw.githubusercontent.com/munarvioletta/OpenGL-texturing-project/master/python-implementation/wynik3.png)
 
 ####Python2 code
 
