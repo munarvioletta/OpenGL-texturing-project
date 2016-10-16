@@ -8,13 +8,13 @@
 void Draw() 
 {
 	glEnable(GL_LIGHTING);//wlaczenie swiatla
-  	glEnable(GL_LIGHT0);//wlaczenie swiatla nr 1
+	glEnable(GL_LIGHT0);//wlaczenie swiatla nr 1
 	glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT); //czyszczenie buforów
 	glEnable(GL_DEPTH_TEST); //WLACZENIE TESTU BUFORA GLEBOKOSCI
 	
 	glPushMatrix(); // odlozenie macierzy na stos
 	glMatrixMode( GL_MODELVIEW ); //macierz modelu
-   	glLoadIdentity();
+	glLoadIdentity();
 	glEnable(GL_POLYGON_OFFSET_FILL); //aktywacja rysowania wypełnionej bryły
 	glPolygonOffset(1.0,1.0);  
 	
@@ -53,7 +53,7 @@ void Draw()
     glDisable(GL_LIGHTING);//wylaczenie swiatla 
     glDisable(GL_LIGHT0); //wylaczenie swiatla punktowego
     glPolygonMode(GL_FRONT_AND_BACK, GL_FILL); //wypelnienie obiektu
-  	glPopMatrix(); //zdjęcie macierzy modelowania ze stosu 
+    glPopMatrix(); //zdjęcie macierzy modelowania ze stosu 
 
     glFlush();
     glutSwapBuffers();  // zamiana buforów koloru
@@ -68,7 +68,7 @@ void Initialize()
 
 	//bryla obcinania – rzutowanie prostokatne
 	glOrtho(-2.0, 2.0, -2.0, 2.0, -2.0, 2.0);
- }
+}
 
 int main(int argc, char** argv) 
 {
