@@ -1,5 +1,7 @@
-from OpenGL.GL import * from OpenGL.GLUT import * from OpenGL.GLU import
-* import pygame
+from OpenGL.GL import *
+from OpenGL.GLUT import *
+from OpenGL.GLU import *
+import pygame
  
 # przypisanie znaku spacji do zmiennej Spacja    
 Spacja = ' '
